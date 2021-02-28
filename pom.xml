@@ -151,8 +151,7 @@
 								<forkCount>1</forkCount>
 								<testSourceDirectory>src/test/groovy</testSourceDirectory>
 								<includes>
-									<include>**/*.groovy</include>
-									<!-- <include>**/*.java</include> -->
+									<include>**/*Spec</include>
 								</includes>
 								<useManifestOnlyJar>false</useManifestOnlyJar>
 								<systemPropertyVariables>
