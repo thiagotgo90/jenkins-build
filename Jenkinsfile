@@ -5,7 +5,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './mvnw install'
+                library "jenkins-shared-library"
+                hello "Thiago"
             }
         }
     }
